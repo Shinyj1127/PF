@@ -66,9 +66,12 @@
         margin-top: 20px;
         }
       .person{
+        text-align:center;
         border: 5px solid gray;
         display :grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto auto;
         }
       .footer {
         padding: 10px;
@@ -107,48 +110,29 @@
     </div>
     <div class="row">
       <div class="card">
-        <img src="solid logo.png" style="float:right" height=s"100">
+        <img src="solid logo.png" style="float:right" height="100">
         <h2>< 의족 모델링 및 시뮬레이션 ></h2>
         <h3>과목 : 응용고체역학</h3>
         <div class="person">
-          <div>
-            <strong>< 의족 모델링 ></strong>
-            <br />
-            <img src="modeling.PNG"  />
-          </div>
-          <div>
-            <strong>< 응력 시뮬레이션 ></strong>
-            <br />
-            <img src="stress-simul.PNG" >
-          </div>
-          <div>
-            <strong>< 변위시뮬레이션 ></strong>
-            <br />
-            <img src="def.PNG" >
-          </div>
+          <div><strong>< 의족 모델링 ></strong></div>
+          <div><strong>< 응력 시뮬레이션 ></strong></div>
+          <div><strong>< 변위시뮬레이션 ></strong></div>
+          <div><img src="modeling.PNG"></div>
+          <div><img src="stress-simul.PNG" ></div>
+          <div><img src="def.PNG"></div>
         </div>
       </div>
       <div class="card">
-        <img src="solid logo.png" style="float:right" height=s"100">
+        <img src="solid logo.png" style="float:right" height="100">
         <h2>< 보의 변형 시뮬레이션 ></h2>
         <h3>과목 : 응용고체역학</h3>
         <div class="person">
-          <div>
-            <strong>< 로봇팔+보 모델링 ></strong>
-            <br />
-            <img src="arm.PNG" width="450" height="500" >
-          </div>
-          <div>
-            <strong>< 고유진동수 시뮬레이션 영상 ></strong>
-            <br />
-            <video width="450" height="500" controls>
-            <source src="arm-moving2.mp4" type="video/mp4">
-          </div>
-          <div>
-            <strong>< 응력 시뮬레이션 ></strong>
-            <br />
-            <img src="arm-simul.PNG" >
-          </div>
+          <div><strong>< 로봇팔+보 모델링 ></strong></div>
+          <div><strong>< 고유진동수 시뮬레이션 영상 ></strong></div>
+          <div><strong>< 응력 시뮬레이션 ></strong></div>
+          <div><img src="arm.PNG" width="450" height="500"></div>
+          <div><video width="450" height="500" controls><source src="arm-moving2.mp4" type="video/mp4"></div>
+          <div><img src="arm-simul.PNG"></div>
         </div>
       </div>
       <div class="footer">

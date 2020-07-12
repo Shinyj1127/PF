@@ -66,9 +66,12 @@
         margin-top: 20px;
         }
       .person{
+        text-align:center;
         border: 5px solid gray;
         display :grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto auto;
         }
       .rccar{
         -webkit-transform: rotate(90deg);
@@ -117,30 +120,21 @@
         <img src="rasberry.PNG" style="float:right" width = "100" height="100">
         <img src="python.PNG" style="float:right" width = "200" height="80">
 
-
         <h2>< 신호등을 인식하는 Smart RC-Car ></h2>
         <h3>과목 : 인공지능</h3>
         <div class="person">
-          <div>
-            <strong>< RC-Car조립 ></strong>
-            <br />
-            <img src="RC-Car-fix.PNG" width="500" height="350">
+          <div><strong>< RC-Car조립 ></strong></div>
+          <div><strong>< Teachable Machine에서 신호등 학습 ></strong></div>
+          <div><strong>< 학습된 RC-Car 구동 ></strong></div>
+          <div><img src="RC-Car-fix.PNG" width="500" height="350"></div>
+          <div><img src="teach.PNG" width="400" height="350"></div>
+          <div class="rccarvideo">
+            <video width="400" height="400" controls>
+            <source src="RC-Car-play.mp4" type="video/mp4">
+            </video>
           </div>
-          <div>
-            <strong>< Teachable Machine에서 신호등 학습 ></strong>
-            <br />
-            <img src="teach.PNG" width="400" height="350">
           </div>
-          <div>
-            <strong>< 학습된 RC-Car 구동 ></strong>
-            <br />
-            <div class="rccarvideo">
-              <video width="400" height="400" controls>
-                <source src="RC-Car-play.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-      </div>
+        </div>
       <div class="card">
         <img src="open-cv.PNG" style="float:right" width = "100" height="100">
         <img src="rasberry.PNG" style="float:right" width = "100" height="100">
@@ -148,21 +142,12 @@
         <h2>< 사람의 얼굴을 인식하는 Smart RC-Car ></h2>
         <h3>과목 : 마이크로프로세서응용</h3>
         <div class="person">
-          <div>
-            <strong>< 얼굴인식 RC-Car 코드1 ></strong>
-            <br />
-            <img src="RC-Car-face-code1.PNG" width="400" height="550" >
-          </div>
-          <div>
-            <strong>< 얼굴인식 RC-Car 코드2 ></strong>
-            <br />
-            <img src="RC-Car-face-code2.PNG" width="400" height="550" >
-          </div>
-          <div>
-            <strong>< RC-Car 구동결과 ></strong>
-            <br />
-            <img src="face.PNG"width="450" height="550" >
-          </div>
+          <div><strong>< 얼굴인식 RC-Car 코드1 ></strong></div>
+          <div><strong>< 얼굴인식 RC-Car 코드2 ></strong></div>
+          <div><strong>< RC-Car 구동결과 ></strong></div>
+          <div><img src="RC-Car-face-code1.PNG" width="400" height="550" ></div>
+          <div><img src="RC-Car-face-code2.PNG" width="400" height="550" ></div>
+          <div><img src="face.PNG"width="450" height="550" ></div>
         </div>
       </div>
       <div class="footer">
