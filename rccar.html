@@ -70,14 +70,20 @@
         display :grid;
         grid-template-columns: 1fr 1fr 1fr ;
         }
+      .rccar{
+        -webkit-transform: rotate(90deg);
+      }
       .footer {
         padding: 10px;
         text-align: center;
         background: #ddd;
         margin-top: 20px;
       }
+      .rccarvideo{
+        transform: rotate(270deg);
+      }
       @media screen and (max-width: 400px) {
-        .topnav a,.topnav2 a {
+        .topnav a,.topnav2 a{
           float: none;
           width: 100%;
         }
@@ -128,8 +134,11 @@
           <div>
             <strong>< 학습된 RC-Car 구동 ></strong>
             <br />
-            <video width="400" height="400" controls>
-            <source src="RC-Car-play.mp4" type="video/mp4">
+            <div class="rccarvideo">
+              <video width="400" height="400" controls>
+                <source src="RC-Car-play.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
       </div>
       <div class="card">
